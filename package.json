@@ -19,7 +19,7 @@
     "webpack-dev-server": "^3.11.2"
   },
   "scripts": {
-    "build": "webpack", 
-    "serve": "webpack-dev-server --hot"
+    "build": "webpack --config webpack.config", 
+    "start": "webpack serve" 
   }
 }
