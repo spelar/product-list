@@ -53,8 +53,27 @@ img {
 	max-width: 100%;
 }
 
-.cboth {
+.blind {
+	position: absolute;
+	clip: rect(0 0 0 0);
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+}
+
+.cboth:after {
 	content: '';
-	display: block;
+	display: table;
 	clear: both;
+}
+
+.ellipsis {
+	display: -webkit-box;
+	overflow: hidden;
+	white-space: normal;
+	word-wrap: break-word;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	text-overflow: ellipsis;
 }
