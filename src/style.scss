@@ -2,6 +2,8 @@
 @import './styles/grid.scss';
 
 .product-list {
+	margin: 0 auto;
+	max-width: 375px;
 	&.grid-view {
 		.product-header {
 			&__btn {
@@ -34,7 +36,6 @@
 		}
 	}
 	&.list-view {
-		max-width: 100%;
 		.product-header {
 			&__btn {
 				background-image: url(images/Listview.png);
@@ -74,8 +75,6 @@
 			}
 		}
 	}
-	margin: 0 auto;
-	max-width: 100%;
 	.product-header {
 		padding: 0px 15px;
 		width: 100%;
@@ -187,12 +186,5 @@
 				}
 			}
 		}
-	}
-}
-
-// media query 
-@media screen and (min-width: 640px) {
-	.product-list {
-		max-width: 599px;
 	}
 }
