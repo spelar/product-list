@@ -62,12 +62,5 @@ module.exports = {
 		new MiniCssExtractPlugin({
       filename: 'style.css'
     })
-  ],
-	// js, css 파일 압축
-	optimization: {
-    minimize: true,
-    minimizer: [
-      new CssMinimizerPlugin(),
-    ],
-  },
+  ]
 };

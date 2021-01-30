@@ -50,7 +50,7 @@ module.exports = {
 						}
           },
         ],
-      },
+      }
     ]
   },
 	// html, css output 설정
@@ -66,8 +66,6 @@ module.exports = {
 	// js, css 파일 압축
 	optimization: {
     minimize: true,
-    minimizer: [
-      new CssMinimizerPlugin(),
-    ],
+    minimizer: [new CssMinimizerPlugin(), "..."],
   },
 };
