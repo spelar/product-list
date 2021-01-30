@@ -1,5 +1,9 @@
 # product-list
 
+## 사용 기술
+
+* Webpack, Sass, Vanilla JS 사용
+
 ## 실행
 
 * 패키지 모듈 설치
