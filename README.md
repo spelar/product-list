@@ -116,8 +116,8 @@
 
 ## Webpack
 
-  <a name="webpack--vanillaJs"></a><a name="4.1"></a>
-  - [4.1](#webpack--vanillaJs) **Webpack**: module bundler Webpack 사용
+  <a name="webpack--webpack"></a><a name="4.1"></a>
+  - [4.1](#webpack--webpack) **Webpack**: module bundler Webpack 사용
 
 	<img width="662" src="https://user-images.githubusercontent.com/17353901/106379709-373dd780-63f1-11eb-8091-81825aae9112.png">
 
