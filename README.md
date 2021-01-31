@@ -142,8 +142,8 @@ $ yarn run build
                         
 ## UI
 
-해상도: 이미지가 깨지지 않게 보이기 위해 iphone 5/SE(320px) ~ iphone 6/7/8 Plus(414) 최적화
-	> 1024 해상도는 이미지의 크기가 작아 센터 정렬
+해상도: 이미지가 깨지지 않게 보이기 위해 iphone 5/SE(320px) ~ iphone 6/7/8 Plus(414) 최적화  
+1024 해상도는 이미지의 크기가 작아 센터 정렬
 
 * grid-view
 <img width="330" src="https://user-images.githubusercontent.com/17353901/106389428-a550c180-6426-11eb-9db1-701682234314.png">
