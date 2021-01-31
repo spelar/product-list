@@ -129,14 +129,14 @@ $ yarn install
 ``` 
 
 *  Webpack dev 서버 실행
-    * Webpack dev 서버를 실행하려면 루트 디렉토리에서 다음 명령을 실행하세요.   
-	```bash
-	$ yarn run start
-	``` 
+	* Webpack dev 서버를 실행하려면 루트 디렉토리에서 다음 명령을 실행하세요.   
+```bash
+$ yarn run start
+``` 
 
 * Webpack build 실행
 	* Webpack build 실행하려면 루트 디렉토리에서 다음 명령을 실행하세요.
-	```bash
-	$ yarn run build
-	``` 
+```bash
+$ yarn run build
+``` 
                         
