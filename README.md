@@ -10,13 +10,34 @@
 ## HTML
 
   <a name="html--text"></a><a name="1.1"></a>
-  - [1.1](#html--text) **대체 텍스트**: 
+  - [1.1](#html--text) **대체 텍스트**: 아이콘, 이미지 대체 텍스트 사용
+
+	```html
+	<button type="button" class="product-header__btn">
+		<span class="blind">리스트 UI 바꾸기</span>
+	</button>
+	```
+
+	```html
+	<img src="http://image.msscdn.net/images/goods_img/20180921/865862/865862_2_320.jpg" alt="캐시미어 블렌드 대디 숄더 싱글 롱 코트" />
+	```
 
 	<a name="html--heading"></a><a name="1.2"></a>
-  - [1.2](#html--heading) **제목 텍스트**: 
+  - [1.2](#html--heading) **제목 텍스트**: 문서의 구조를 위해 제목 텍스트 사용
+
+	```html
+	<h1 class="blind">검색결과</h1>
+	```
+
+	```html
+	<h2 class="ellipsis product-item__info--title">
+		[유아인 착장상품] 무신사랑 이벤트 진행중 - 캐시미어 블렌드 대디 숄더 싱글 롱 코트
+	</h2>
+	```
 
 	<a name="html--confirm"></a><a name="1.3"></a>
-  - [1.3](#html--confirm) **검증**: 
+  - [1.3](#html--confirm) **검증**: tool을 이용한 검증
+	
 
 ## CSS
 
