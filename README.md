@@ -103,16 +103,16 @@
 
 	productHeaderBtn[0].addEventListener('click', setViewType);
 
-  	```
+	```
 		
-	<a name="js--es6"></a><a name="3.2"></a>
-	- [3.2](#js--es6) **es6**: es6 Template literal 사용
+<a name="js--es6"></a><a name="3.2"></a>
+- [3.2](#js--es6) **es6**: es6 Template literal 사용
 
 	```javascript
 	
 	productList[0].classList.add(`${viewType[viewTypeIndex]}`);
 	
-  ```
+ 	 ```
 
 ## Webpack
 
@@ -130,13 +130,13 @@ $ yarn install
 
 *  Webpack dev 서버 실행
     * Webpack dev 서버를 실행하려면 루트 디렉토리에서 다음 명령을 실행하세요.   
-```bash
-$ yarn run start
-``` 
+	```bash
+	$ yarn run start
+	``` 
 
 * Webpack build 실행
-    * Webpack build 실행하려면 루트 디렉토리에서 다음 명령을 실행하세요.
-```bash
-$ yarn run build
-``` 
+	* Webpack build 실행하려면 루트 디렉토리에서 다음 명령을 실행하세요.
+	```bash
+	$ yarn run build
+	``` 
                         
