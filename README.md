@@ -103,7 +103,7 @@
 
 	productHeaderBtn[0].addEventListener('click', setViewType);
 
-  ```
+  	```
 		
 	<a name="js--es6"></a><a name="3.2"></a>
 	- [3.2](#js--es6) **es6**: es6 Template literal 사용
